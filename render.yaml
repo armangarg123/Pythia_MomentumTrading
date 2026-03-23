@@ -6,10 +6,6 @@ services:
     startCommand: gunicorn pythia_dashboard:server --workers 1 --timeout 120 --bind 0.0.0.0:$PORT
     envVars:
       - key: PYTHON_VERSION
-        value: 3.11.0
+        value: "3.11.0"
       - key: DASH_DEBUG
-        value: false
-    disk:
-      name: pythia-data
-      mountPath: /data
-      sizeGB: 2
+        value: "false"
