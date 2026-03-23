@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.env
+.venv
+venv/
+.ipynb_checkpoints/
+*.ipynb
+ff3_factors.csv
+benchmark_gspc.csv
+.DS_Store
+sp500_download_progress.json
